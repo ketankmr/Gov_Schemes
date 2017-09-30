@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:src="@drawable/complain"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center_vertical"
+                android:text=" Atal Pension Yojana"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_weight="3"
+                android:textSize="15sp"
+                android:text="The Central Govern ment Health Scheme (CGHS) was started under the Indian Ministry of Health and Family Welfare in 1954 with the objective of providing comprehensive medical care facilities to Central Government employees, pensioners and their dependents residing in CGHS covered cities.The dispensary is the backbone of the Scheme. Instructions on these various matters have been issued from, time to time for the guidance of the specialists and medical Officers. With the rapid and continuous expansion of the Scheme, however, not only situation has changed and problems arisen but also. the rapidly expanding staff have not approved practices, procedures and instructions in regard to their various duties and responsibilities. In the following paragraphs is set out the gist of provisions of the Scheme, various instructions and order issued from time to time to serve as a Compendium for the guidance of the CGHS staff."
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:padding="10dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
