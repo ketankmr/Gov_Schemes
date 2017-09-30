@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------------------------------------------------------
+**APP**
+
+1. Login either by Phone No./Email.
+
+2. View Schemes category wise by clicking on the floating action button.
+
+3. Add new complain by clicking the "New Complain button" on top right which will be sent for validation
+   and if complain is accepted by Admin it will be shown in the App.
+
+4. One can support a complain by clicking on the "plus button" on corresponding complain.
+
+-------------------------------------------------------------------------------------------------------------------------------
+**WEB**
+
+1. Login using the credentials :-
+   a. Webpage Address -> http://hosting619.96.lt/web%20pages/login.php
+   b. Username        -> Manager
+   c. Password        -> admin
+
+2. Add the National/Local Scheme by providing the required details.
+
+3. In the complain page , click on :
+   a. Right Button -> To Accept the complain and store it in database so that it can be viewed by other users in APP.
+   b. Wrong Button -> To Delete the complain from the database.
+-------------------------------------------------------------------------------------------------------------------------------
